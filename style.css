@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(32, 32, 32);
+}
+
+.white{
+    color: white;
+}
+
+.stocked{
+    color: green;
+}
+
+.padding{
+    padding: 1%;
+}
+
+.smalltext{
+    font-size: medium;
+}
+
+.shading{
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.cardimage{
+    width: 300px;
+    height: 300px;
+}
+
+.cardsize{
+    height: 30.5rem;
+    width: 18rem;
+}
+
+.cardsizesale{
+    height: 31.5rem;
+    width: 18rem;
+}
+
+.titlelimit{
+    display: block;
+    width: 16rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.paddingtengah{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+a{
+    text-decoration: 0;
+    color: rgb(151, 151, 151);
+}
+
+.iconnav{
+    width: 20%;
+    height: 20%;
+    padding-right: 4%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+}
+
+.hardsoftcontain{
+    border: 3px dotted black;
+    background-color: white;
+    word-wrap:break-word;
+}
+
+.hardsoftcontain:hover{
+    border: 3px dotted black;
+    background-color: rgb(54, 54, 54);
+    word-wrap:break-word;
+}
+
+.ctgimg{
+    width: 20%;
+    height: 20%;
+}
+
+.margincarousel{
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+.floatright{
+    float: right;
+}
+
+@media screen and (max-width: 991px) {
+    .margincarousel{
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+
+    .paddingtengah{
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

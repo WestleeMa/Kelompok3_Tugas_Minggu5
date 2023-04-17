@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(32, 32, 32);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+}
+
+h5{
+    color: rgb(163, 163, 163);
+    text-align: center;
+    padding-top: 3%;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.contain{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.footer{
+    margin-top: 30%;
+}
+
+a{
+    word-wrap:break-word;
+}
+
+.iconnav{
+    width: 20%;
+    height: 20%;
+    padding-right: 4%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+}
